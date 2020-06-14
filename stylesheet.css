@@ -1,244 +1,157 @@
-* {
-  box-sizing: border-box;
+
+*{
+    box-sizing: border-box;
 }
 
 body {
-  margin: 0;
-  font-family: "Hiragino Kaku Gothic ProN";
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN";
 }
-
+  
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .container {
-  width: 100%;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
-.top-wrapper {
-  padding: 180px 0 100px 0;
-  background-image: url(top.png);
-  background-size: cover;
-  color: white;
-  text-align: center;
-}
-
-.top-wrapper h1 {
-  opacity: 0.7;
-  font-size: 45px;
-  letter-spacing: 5px;
-}
-
-.top-wrapper p {
-  opacity: 0.7;
-  font-size: 16px;
-  margin-bottom: 40px;
-}
-
-.btn-wrapper {
-  text-align: center;
-}
-
-.btn-wrapper p {
-  margin-bottom: 20px;
-}
-
-.signup {
-  background-color: #239b76;
-}
-
-.btn {
-  padding: 8px 24px;
-  color: white;
-  display: inline-block;
-  opacity: 0.8;
-  border-radius: 4px;
-  text-align: center;
-}
-
-.btn:hover {
-  opacity: 1;
-}
-
-.fa {
-  margin-right: 5px;
+    width: 960px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
 header {
-  height: 65px;
-  width: 100%;
-  background-color: rgba(34,49,52,0.9);
-  position :fixed;
-  top: 0;
-  z-index: 10;
+    background: #ffffff;
+    height: 135px;
+    margin-top: 0;
 }
 
-.logo {
-  width: 124px;
-  margin-top: 20px;
+.sp-center {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    background-color: white;
+    height: 45px;
 }
 
-.header-left {
-  float: left;
+.aps1-1 img{
+    height: 60px;
+    float: left;
 }
 
-.lesson-wrapper {
-  height: 580px;
-  padding-bottom: 80px;
-  padding-left: 5%;
-  padding-right: 5%;
-  background-color: #f7f7f7;
-  text-align: center;
+.aps1-2 img{
+    height: 60px;
+    padding: 10px;
+    float: right;
 }
 
-.heading {
-  padding-top: 80px;
-  padding-bottom: 50px;
-  color: #5f5d60;
+.menu {
+    background-color: #a0ca68;
+    height: 50px;
 }
 
-.heading h2 {
-  font-weight: normal;
-}
-
-.lesson {
-  float: left;
-  width: 25%;
-}
-
-.lesson-icon {
-  position: relative;
-}
-
-.lesson-icon p {
-  position: absolute;
-  top: 37%;
-  width: 100%;
-  color: white;
-}
-
-.text-contents {
-  width: 80%;
-  display: inline-block;
-  margin-top: 15px;
-  font-size: 13px;
-  color: #b3aeb5;
-}
-
-.heading h3 {
-  font-weight: normal;
-}
-
-.message-wrapper {
-  border-bottom: 1px solid #eee;
-  padding-bottom: 80px;
-  text-align: center;
-}
-
-.message {
-  padding: 15px 40px;
-  background-color: #5dca88;
-  cursor: pointer;
-  box-shadow: 0px 7px #1a7940;
-}
-
-.message:active {
-  position: relative;
-  top: 7px;
-  box-shadow: none;
-}
-
-footer img {
-  width: 125px;
-}
-
-footer p {
-  color: #b3aeb5;
-  font-size: 12px;
-}
-
-footer {
-  padding-top: 30px;
-  padding-bottom: 20px;
-}
-
-.menu-icon {
-  color: white;
-  float: right;
-  font-size: 25px;
-  padding: 21px 0;
-  display: none;
-}
-
-.clear {
-  clear: left;
-}
-
-@media all and (max-width: 1000px) {
-  .lesson {
-    width: 50%;
-    margin-bottom: 50px;
-  }
-
-  .lesson-wrapper {
-    height: 990px;
-  }
-
-  footer {
+.float ul {
+    margin: 0 auto;
+    padding: 0;
     text-align: center;
-  }
 }
 
-@media all and (max-width: 750px) {
-  .top-wrapper h1 {
-    font-size: 32px;
-  }
-
-  .heading h2 {
-    font-size: 20px;
-  }
+.float li {
+    position: relative;
+    display: inline-block;
+	text-decoration: none;
+	line-height: 50px;
+    text-align: center;
+    width: 24%;
+    text-decoration: none;
 }
 
-@media all and (max-width: 670px) {
-  .header-right {
-    display: none;
-  }
-
-  .menu-icon {
+header li a{
     display: block;
-  }
-
-  .top-wrapper .btn {
     width: 100%;
-  }
+    text-decoration: none;
+    color: black;
+}
 
-  .twitter {
-    margin-top: 10px;
-  }
+.float > p{
+    text-decoration: none;
+    margin: 0;
+    text-indent: 0;
+}
 
-  .top-wrapper {
-    text-align: left;
-  }
+.float li:hover{
+    font-weight: bold;
+    background: #b8ee8cc9;
+}
 
-  .top-wrapper h1 {
-    font-size: 24px;
-  }
+.section1 {
+    font-weight: normal;
+}
 
-  .top-wrapper p {
-    font-size: 14px;
-  }
+.h1-box {
+    background-color: lightgreen;
+}
 
-  .lesson {
+.h2-box {
+    background-color: lightblue;
+}
+
+.h2-set {
+    position: relative;
+    padding: 0 .5em .5em 2em;
+    border-bottom: 1px solid #b61c2c;
+    font-weight: bold;
+}
+
+.h2-set::before,
+.h2-set::after {
+    position: absolute;
+    content: '';
+    border-radius: 100%;
+}
+
+.h2-set::before {
+    top: .2em;
+    left: .2em;
+    z-index: 2;
+    width: 18px;
+    height: 18px;
+    background: rgba(203, 162, 164, .5);
+}
+
+.h2-set::after {
+    top: .7em;
+    left: .7em;
+    width: 13px;
+    height: 13px;
+    background: rgba(182, 28, 44, .5);
+}
+
+.h3-box {
+    font-weight: normal;
+}
+
+.twilink {
+    color: black;
+}
+
+.box {
+    overflow: auto;
+    width: auto;
+    height: 200px;
+    padding: 5px;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+
+.textbox {
+    font-weight: normal;
+    padding: 0 1em;
+}
+
+.foot-center {
     width: 100%;
-  }
-
-  .lesson-wrapper {
-    height: 1700px;
-  }
-
-  .message-wrapper .btn {
-    width: 100%;
-  }
+    padding: 0 15px;
+    margin: 0 auto;
+    background-color: lightgoldenrodyellow;
+    height: 45px;
 }
