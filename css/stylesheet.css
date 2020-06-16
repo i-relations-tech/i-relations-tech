@@ -1,0 +1,201 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN";
+}
+  
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 70%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header {
+    background: #ffffff;
+    height: 135px;
+    margin-top: 0;
+}
+
+.sp-center {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    background-color: white;
+    height: 45px;
+}
+
+.aps1-1 img{
+    height: 60px;
+    float: left;
+}
+
+.aps1-2 img{
+    height: 60px;
+    padding: 10px;
+    float: right;
+}
+
+.menu {
+    background-color: #a0ca68;
+    height: 50px;
+}
+
+.float ul {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+.float li {
+    position: relative;
+    display: inline-block;
+	text-decoration: none;
+	line-height: 50px;
+    text-align: center;
+    width: 24%;
+}
+
+header li a{
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+.float > p{
+    text-decoration: none;
+    margin: 0;
+    text-indent: 0;
+}
+
+.float li:hover{
+    font-weight: bold;
+    background: #b8ee8cc9;
+}
+
+.h1-box {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.h2-set {
+    position: relative;
+    padding: 0 .5em .5em 2em;
+    border-bottom: 2px solid #b61c2c;
+    font-weight: bold;
+}
+
+.h2-set::before,
+.h2-set::after {
+    position: absolute;
+    content: '';
+    border-radius: 100%;
+}
+
+.h2-set::before {
+    top: .2em;
+    left: .2em;
+    z-index: 2;
+    width: 18px;
+    height: 18px;
+    background: rgba(203, 162, 164, .5);
+}
+
+.h2-set::after {
+    top: .7em;
+    left: .7em;
+    width: 13px;
+    height: 13px;
+    background: rgba(182, 28, 44, .5);
+}
+
+.h3-set {
+    font-weight: bold;
+}
+
+.box {
+    overflow: auto;
+    width: auto;
+    height: 200px;
+    padding: 5px;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+}
+.box a {
+    padding: 5px;
+    color: black;
+}
+
+.box a:hover {
+    text-decoration: underline;
+}
+
+.textbox {
+    font-weight: normal;
+    padding: 0 1em;
+}
+
+.twilink {
+    color: black;
+}
+
+.twilink:hover {
+    text-decoration: underline;
+}
+
+.intro-h {
+    display: inline-block;
+    margin-left: .5em;
+    font-size: larger;
+    border-bottom: 1px solid rgb(182, 28, 44);
+}
+
+.intro-t {
+    margin-left: 1em;
+}
+
+.intro-t p a {
+    color: black;
+    text-decoration: underline;
+}
+
+.intro-t p a:hover {
+    font-weight: bold;
+}
+
+.pdf li {
+    font-size: larger;
+    padding-bottom: 4px;
+}
+
+.pdf li p {
+    font-size: normal;
+    margin: 1px;
+    padding-left: 5px;
+}
+
+.pdf li a {
+    color: black;
+    text-decoration: underline;
+}
+
+.picture {
+    text-align: center;
+}
+
+.foot-center {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    background-color: #a0ca68;
+    height: 40px;
+}
