@@ -60,6 +60,7 @@ header {
 	text-decoration: none;
 	line-height: 50px;
     text-align: center;
+    font-size: large;
     width: 24%;
 }
 
@@ -117,6 +118,11 @@ header li a{
     background: rgba(182, 28, 44, .5);
 }
 
+.precautions {
+    color: tomato;
+    font-weight: bold;
+}
+
 .h3-set {
     font-weight: bold;
 }
@@ -126,6 +132,7 @@ header li a{
     width: auto;
     height: 200px;
     padding: 5px;
+    margin-right: 1em;
     border: 2px solid black;
     background-color: white;
     color: black;
@@ -161,20 +168,20 @@ header li a{
 
 .intro-t {
     margin-left: 1em;
+    padding-right: 2em;
 }
 
 .intro-t p a {
     color: black;
-    text-decoration: underline;
 }
 
 .intro-t p a:hover {
-    font-weight: bold;
+    text-decoration: underline;
 }
 
 .pdf li {
     font-size: larger;
-    padding-bottom: 4px;
+    padding-bottom: 8px;
 }
 
 .pdf li p {
@@ -194,8 +201,8 @@ header li a{
 
 .foot-center {
     width: 100%;
-    padding: 0 15px;
-    margin: 0 auto;
+    padding-top: 7px;
+    padding-left: 2em;
     background-color: #a0ca68;
-    height: 40px;
+    height: 55px;
 }
